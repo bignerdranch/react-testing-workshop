@@ -1,0 +1,91 @@
+.header-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    box-shadow: 0px 9px 13px rgb(0 0 0 / 5%);
+    padding: 0 20px;
+}
+
+.header-component img {
+    height: 50px;
+    width: 50px;
+}
+
+.header-component h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #674836;
+    margin-left: 15px;
+}
+
+.header-component p {
+    color: #674836;
+}
+
+.header-component a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header-component .menu {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.header-component .menu a {
+    position: relative;
+    text-decoration: underline;
+    font-size: 24px;
+    color: #674836;
+}
+
+.header-component .menu img {
+    height: 40px;
+    width: 40px;
+}
+
+.header-component .menu a > img {
+    margin-right: 8px;
+}
+
+.header-component .menu .badge {
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    border-radius: 100%;
+    font-size: 14px;
+    background-color: #CC8B18;
+    color: #FFF;
+    font-weight: normal;
+    right: 2px;
+    top: calc(50% - 22px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .header-component {
+        flex-direction: row;
+        align-items: center;
+        padding: 0 50px;
+    }
+
+    .header-component img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .header-component .menu {
+        width: auto;
+        flex-grow: 1;
+        height: 100%;
+        margin: 0;
+    }
+}

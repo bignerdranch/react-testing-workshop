@@ -1,0 +1,18 @@
+.alert-component {
+    position: relative;
+    background: #adc6a8;
+    display: hidden;
+    align-items: center;
+    width: 100%;
+    max-height: 0;
+    transition: .3s all ease;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.alert-component.visible {
+    display: block;
+    max-height: 900px;
+}

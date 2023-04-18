@@ -1,0 +1,88 @@
+.cart-component {
+  padding: 0 20px;
+  font-size: 18px;
+}
+
+.cart-component h2 {
+  margin: 50px 0 20px 0;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.cart-component th,
+.cart-component td {
+  text-align: left;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.cart-component td button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #CC8B18;
+  border-radius: 100%;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.cart-component label {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.cart-component input {
+  border-radius: 5px;
+  border: 1px solid rgba(151, 151, 151, 1);
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  padding: 4px;
+  margin-top: 5px;
+}
+
+.cart-component form button {
+  border-radius: 26px;
+  background-color: #674836;
+  color: white;
+  border: none;
+  width: 150px;
+  height: 43px;
+  font-size: 21px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.cart-component form button:disabled {
+  opacity: 20%;
+  cursor: auto;
+}
+
+.cart-component form button:hover:enabled {
+  opacity: 75%;
+}
+
+.cart-component .warning {
+  margin-top: 5px;
+  color: red;
+}
+
+@media (min-width: 768px) {
+  .cart-component {
+    padding: 0 50px;
+  }
+
+  .cart-component input {
+    width: 50%;
+  }
+}

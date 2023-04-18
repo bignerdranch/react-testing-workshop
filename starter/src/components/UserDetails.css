@@ -1,0 +1,64 @@
+.user-details-component {
+  display: flex;
+  align-items: center;
+}
+
+.user-details-component div {
+  display: flex;
+  align-items: center;
+}
+
+.user-details-component a {
+  color: #674836;
+  font-size: 24px;
+  text-decoration: underline;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  min-width: 40px;
+  margin-left: 10px;
+}
+
+.user-details-component button {
+  background-color: #674836;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 26px;
+  border: none;
+  cursor: pointer;
+  min-width: 32px;
+  margin-left: 16px;
+}
+
+.user-details-component p {
+  display: none;
+  margin: 0 10px 0 5px;
+  font-size: 24px;
+}
+
+.user-details-component img {
+  margin-left: 16px;
+}
+
+@media (min-width: 768px) {
+
+  .user-details-component a {
+    margin-left: 40px;
+  }
+
+  .user-details-component p {
+    display: block;
+    margin: 0 40px 0 5px;
+  }
+
+  .user-details-component button {
+    min-width: 100px;
+    margin-left: 0;
+  }
+
+  .user-details-component img {
+    margin-left: 40px;
+  }
+}

@@ -1,0 +1,58 @@
+.orders-component {
+  padding: 0 20px;
+}
+
+.orders-component h2 {
+  margin: 50px 0 28px 0;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.orders-component table {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
+.orders-component th {
+  text-align: start;
+  padding-right: 32px;
+}
+
+.orders-component th,
+.orders-component td {
+  padding-bottom: 10px;
+  min-width: 130px;
+}
+
+.orders-component button {
+  margin-bottom: 24px;
+}
+
+.orders-component .order {
+  border-bottom: 1px solid rgb(216, 216, 216);
+  margin-bottom: 24px;
+}
+
+.orders-component button {
+  border-radius: 26px;
+  background-color: rgb(204, 139, 24);
+  color: white;
+  border: none;
+  width: 150px;
+  height: 43px;
+  font-size: 21px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.orders-component button:hover {
+  opacity: 75%;
+}
+
+@media (min-width: 768px) {
+  .orders-component {
+    padding: 0 50px;
+  }
+}

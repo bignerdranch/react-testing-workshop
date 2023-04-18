@@ -1,0 +1,11 @@
+.not-found-component {
+    padding: 20px;
+}
+
+.not-found-component h2 {
+    margin-top: 0;
+}
+
+.not-found-component a {
+    color: #674836;
+}

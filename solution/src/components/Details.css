@@ -1,0 +1,73 @@
+.details-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.details-component > div:first-child {
+    padding: 0 20px;
+}
+
+.details-component-sidebar {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    position: fixed;
+    width: 100vw;
+    overflow: scroll;
+    bottom: 0;
+}
+
+.details-component-sidebar img {
+    height: 75px;
+    width: 75px;
+}
+
+.details-component-sidebar .thumbnail-component:last-child {
+    margin-right: 20px;
+}
+
+.details-component-sidebar .thumbnail-component:first-child {
+    margin-left: 20px;
+}
+
+.details-component-sidebar .thumbnail-component:nth-child(3n + 2) div {
+    background-color: #9BA699;
+}
+
+.details-component-sidebar .thumbnail-component:nth-child(3n + 3) div {
+    background-color: #3F3F40;
+}
+
+@media (min-width: 768px) {
+
+    .details-component {
+        flex-direction: row-reverse;
+        padding: 0 50px;
+    }
+
+    .details-component > div:first-child {
+        padding: 0 50px;
+        flex: 1;
+    }
+
+
+    .details-component-sidebar {
+        position: relative;
+        flex-direction: column;
+        row-gap: 32px;
+        width: 200px;
+        height: 100vh;
+        overflow: scroll;
+    }
+
+    .details-component-sidebar .thumbnail-component:last-child,
+    .details-component-sidebar .thumbnail-component:first-child   {
+        margin: 0;
+    }
+
+    .details-component-sidebar img {
+        height: 106px;
+        width: 106px;
+    }
+}

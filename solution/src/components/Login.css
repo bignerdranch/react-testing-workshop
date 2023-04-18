@@ -1,0 +1,51 @@
+.login-component {
+  padding: 0 20px;
+}
+
+.login-component h2 {
+  margin: 50px 0 20px 0;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.login-component label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.login-component form input {
+  margin-top: 5px;
+  padding: 5px 2px;
+  font-size: 18px;
+  border: 1px solid rgb(151, 151, 151);
+  border-radius: 5px;
+}
+
+.login-component button {
+  border-radius: 26px;
+  background-color: #674836;
+  color: white;
+  border: none;
+  width: 150px;
+  height: 43px;
+  font-size: 21px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.login-component button:hover {
+  opacity: 75%;
+}
+
+@media (min-width: 768px) {
+  .login-component {
+    padding: 0 50px;
+  }
+
+  .login-component input {
+    width: 50%;
+  }
+}
